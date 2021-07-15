@@ -16,4 +16,4 @@ async def on_ready():
         now = datetime.datetime.now()
         await client.get_channel(timechannel).edit(name=f"{now.hour}:{now.minute} (<GB>)") # The channel gets changed here
         await asyncio.sleep(60)
-client.run(distoken)
+client.run(865273307984298014)
