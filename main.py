@@ -14,6 +14,6 @@ async def on_ready():
     print('We have logged in as {0.user}'.format(client))
     while True:
         now = datetime.datetime.now()
-        await client.get_channel(timechannel).edit(name=f"{now.hour}:{now.minute} (<INSERT YOUR LOCAL TIMEZONE HERE>)") # The channel gets changed here
+        await client.get_channel(timechannel).edit(name=f"{now.hour}:{now.minute} (<GB>)") # The channel gets changed here
         await asyncio.sleep(60)
 client.run(distoken)
