@@ -1,4 +1,6 @@
 git+https://github.com/MalekBael/malek-test
 discordpy
-pip
+pip >= 9.0.0
+pkg3
+trio_asyncio==0.11.0
 
