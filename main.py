@@ -6,11 +6,11 @@ import datetime
 
 client = discord.Client()
 
-distoken = "Your Discord Token"
+distoken = 865273307984298014
 
 # These must all be Voice Channels
 
-timechannel = # The ID of the Channel that gets renamed
+timechannel = 865229417877340161 # The ID of the Channel that gets renamed
 
 @client.event
 
