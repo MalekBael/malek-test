@@ -4,7 +4,7 @@ import datetime
 
 client = discord.Client()
 
-distoken = ODY1MjczMzA3OTg0Mjk4MDE0.YPBmkA.oUYF0-hh9VxhGbDWuqAgvSLKOTc
+distoken = ODY1MjczMzA3OTg0Mjk4MDE0.YPBmkA.V2sNDQ1gv5Kh_hHntwocQbe322M
 
 # These must all be Voice Channels
 timechannel = 865229417877340161 # The ID of the Channel that gets renamed
