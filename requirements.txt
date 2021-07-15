@@ -1,3 +1,4 @@
 git+https://github.com/MalekBael/malek-test
 discordpy
+pip
 
