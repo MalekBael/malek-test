@@ -1,4 +1,3 @@
-git+https://github.com/MalekBael/malek-test
 discordpy
 pip >= 9.0.0
 pkg3
