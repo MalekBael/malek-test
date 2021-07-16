@@ -1,6 +1,12 @@
-import discord
+import os
 import asyncio
 import datetime
+
+import discord
+from dotenv import load_dotenv
+
+load_dotenv()
+TOKEN = os.getenv('DISCORD_TOKEN')
 
 client = discord.Client()
 
@@ -16,4 +22,4 @@ async def on_ready():
         now = datetime.datetime.now()
         await client.get_channel(timechannel).edit(name=f"{now.hour}:{now.minute} (<GB>)") # The channel gets changed here
         await asyncio.sleep(60)
-client.run(distoken)
+client.run(TOKEN)
