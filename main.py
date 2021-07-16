@@ -4,10 +4,10 @@ import datetime
 
 client = discord.Client()
 
-distoken = 865273307984298014
+distoken = "865273307984298014"
 
 # These must all be Voice Channels
-timechannel = 865229417877340161 # The ID of the Channel that gets renamed
+timechannel = "865229417877340161" # The ID of the Channel that gets renamed
 
 @client.event
 async def on_ready():
